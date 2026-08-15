@@ -7,7 +7,7 @@
 ----------------------------------------------------------------------------
 
 Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
-- removes the solid colored bar
+- removes the solid colored QuickShell bar
 - replaces it with pillbox styled plugin capsules
 - Uses Chinese characters for workspaces 1-10
 - adds a dynamically sized expandable system tray whose pillbox capsule grows and shrinks with the drawer.
