@@ -6,6 +6,8 @@
 
 ----------------------------------------------------------------------------
 
+(For use with Omarchy 4.0 setups with QuickShell & Hyprland w/ Lua) 
+
 Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 - Removes the solid colored QuickShell bar
 - Replaces it with pillbox styled plugin capsules
