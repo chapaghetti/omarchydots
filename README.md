@@ -9,6 +9,7 @@
 Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 - removes the solid colored bar
 - replaces it with pillbox styled plugin capsules
+- Uses Chinese characters for workspaces 1-10
 - adds a dynamically sized expandable system tray whose pillbox capsule grows and shrinks with the drawer.
 - accents the Omarchy button and the active workspace icon with the current theme's accent color
 - Sets battery to yellow when less than 50% and red when less than 15%
