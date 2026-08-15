@@ -11,7 +11,7 @@ Theme shown: Miasma (https://github.com/OldJobobo)
 
 Omarchy Custom Bar — Pillbox & Expandable Tray
 
-Recap of the customizations applied to the Omarchy shell/bar for a pillboxed,
+An overview of the customizations applied to the Omarchy shell/bar for a pillboxed,
 floating-module look with an expandable system tray whose capsule grows and
 shrinks with the drawer.
 
@@ -185,4 +185,3 @@ function isTrayEntry(id) {
 - Restore the original tray: swap shell.json entry back to `omarchy.tray` and
   `omarchy plugin remove nugget.tray` (or restore the `shell.json.bak.pillbox.*`
   backup), and optionally undo the `isTrayEntry` change in `BarModel.js`.
-- 
