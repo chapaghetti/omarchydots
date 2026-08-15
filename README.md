@@ -17,7 +17,7 @@ shrinks with the drawer.
 
 ---
 
-1. Pillbox — floating capsule around every plugin
+Pillbox — floating capsule around every plugin
 
 **Why the standard bar couldn't do this:** the default `omarchy.bar` paints one
 full-width background rectangle for the whole bar. The pillbox look instead
@@ -78,7 +78,7 @@ extent) makes its pill permanently too big.
 
 ---
 
-2. The expandable tray — pill shrinks/grows with the drawer
+The expandable tray — pill shrinks/grows with the drawer
 
 **Why the stock tray broke the pillbox:** `omarchy.tray`'s root
 `implicitWidth = pinnedWidth + chevron + drawerExtent` — the *full*
@@ -111,7 +111,7 @@ Verified via `omarchy-shell shell debugBarGeometry`:
 
 ---
 
-3. Supporting wiring
+Supporting wiring
 
  `BarModel.js` (`nugget.bar`, line 29)
 
@@ -146,7 +146,7 @@ function isTrayEntry(id) {
 
 ---
 
- 4. Recreation checklist
+Recreation checklist
 
 1. **Clone the bar:** `omarchy plugin clone omarchy.bar` → `nugget.bar`.
    Set `bar.id` to `nugget.bar` in shell.json, set `transparent: true`.
@@ -169,7 +169,7 @@ function isTrayEntry(id) {
 
 ---
 
- 5. Files to touch / verify
+Files to touch / verify
 
 | Purpose                          | File                                                 |
 | -------------------------------- | ---------------------------------------------------- |
@@ -180,7 +180,7 @@ function isTrayEntry(id) {
 | Custom command module scripts    | `~/.config/omarchy/bar/scripts/{cpu,disk,mem}-usage` |
 | Geometry verification (IPC)      | `omarchy-shell shell debugBarGeometry`               |
 
- 6. Revert paths
+Revert paths
 
 - Restore the original tray: swap shell.json entry back to `omarchy.tray` and
   `omarchy plugin remove nugget.tray` (or restore the `shell.json.bak.pillbox.*`
