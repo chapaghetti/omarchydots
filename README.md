@@ -4,6 +4,7 @@
 <img width="2880" height="74" alt="clipboard_2026-08-15_12-23" src="https://github.com/user-attachments/assets/441ca6e9-7e40-4954-bfb6-9a7eddf6e860" />
 <img width="2880" height="76" alt="clipboard_2026-08-15_12-24" src="https://github.com/user-attachments/assets/d1895a08-ff09-4132-b56c-10c03bdc2d35" />
 
+----------------------------------------------------------------------------
 
 Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 - removes the solid colored bar
