@@ -1,4 +1,6 @@
 <img width="2880" height="94" alt="clipboard_2026-08-15_12-00" src="https://github.com/user-attachments/assets/17099ecf-f3d0-4f7c-871e-05a20890f8f3" />
+<img width="2880" height="102" alt="clipboard_2026-08-15_12-18" src="https://github.com/user-attachments/assets/96ed6790-6165-411f-bd18-620575c3206a" />
+
 
 
 Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
@@ -6,8 +8,10 @@ Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 - replaces it with pillbox styled plugin capsules
 - adds a dynamically sized expandable system tray whose pillbox capsule grows and shrinks with the drawer.
 
-Theme shown: Miasma (https://github.com/OldJobobo) 
-
+Themes shown:
+- Miasma (https://github.com/OldJobobo)
+- Tokyo Night
+  
 ----------------------------------------------------------------------------
 
 Omarchy Custom Bar — Pillbox & Expandable Tray
