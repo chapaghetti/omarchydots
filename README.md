@@ -17,14 +17,14 @@ shrinks with the drawer.
 
 ---
 
-# 1. Pillbox — floating capsule around every plugin
+1. Pillbox — floating capsule around every plugin
 
 **Why the standard bar couldn't do this:** the default `omarchy.bar` paints one
 full-width background rectangle for the whole bar. The pillbox look instead
 requires the bar window to be *fully transparent* and each module to draw its
 own rounded capsule.
 
-# Changes made (`~/.config/omarchy/plugins/nugget.bar/`)
+Changes made (`~/.config/omarchy/plugins/nugget.bar/`)
 
 **shell.json** — activate the custom bar and make it transparent:
 
@@ -69,7 +69,7 @@ The three module loaders (command / registry / qml) are inset by `pillPadX/Y`
 so module content sits inside the pill. Section lists space pills apart with
 `spacing: Style.space(5)` (= `pillGap`).
 
-# Key design insight
+Key design insight
 
 The slot sizes itself from `activeItem.implicitWidth`. The pillbox therefore
 auto-hugs every module — which is *why* the tray fix below was required. Any
@@ -78,14 +78,14 @@ extent) makes its pill permanently too big.
 
 ---
 
-# 2. The expandable tray — pill shrinks/grows with the drawer
+2. The expandable tray — pill shrinks/grows with the drawer
 
 **Why the stock tray broke the pillbox:** `omarchy.tray`'s root
 `implicitWidth = pinnedWidth + chevron + drawerExtent` — the *full*
 collapsed+expanded drawer width was always reserved, so its pill was always
 "expanded" sized even when closed.
 
-# Changes made (`~/.config/omarchy/plugins/nugget.tray/Tray.qml`, clone of the built-in)
+Changes made (`~/.config/omarchy/plugins/nugget.tray/Tray.qml`, clone of the built-in)
 
 - Resize by *revealed* extent instead of full extent (horizontal; vertical
   mirrored):
@@ -111,9 +111,9 @@ Verified via `omarchy-shell shell debugBarGeometry`:
 
 ---
 
-# 3. Supporting wiring
+3. Supporting wiring
 
-# `BarModel.js` (`nugget.bar`, line 29)
+ `BarModel.js` (`nugget.bar`, line 29)
 
 `pinTrayToInner` hard-matched the id `omarchy.tray`. Since the cloned tray is
 `nugget.tray`, a helper was added so the tray still gets pinned to the inner
@@ -126,7 +126,7 @@ function isTrayEntry(id) {
 }
 ```
 
-# shell.json
+ shell.json
 
 - Right-section entry `"id": "nugget.tray"` (replaces `omarchy.tray`).
 
@@ -146,7 +146,7 @@ function isTrayEntry(id) {
 
 ---
 
-# 4. Recreation checklist
+ 4. Recreation checklist
 
 1. **Clone the bar:** `omarchy plugin clone omarchy.bar` → `nugget.bar`.
    Set `bar.id` to `nugget.bar` in shell.json, set `transparent: true`.
@@ -169,7 +169,7 @@ function isTrayEntry(id) {
 
 ---
 
-# 5. Files to touch / verify
+ 5. Files to touch / verify
 
 | Purpose                          | File                                                 |
 | -------------------------------- | ---------------------------------------------------- |
@@ -180,7 +180,7 @@ function isTrayEntry(id) {
 | Custom command module scripts    | `~/.config/omarchy/bar/scripts/{cpu,disk,mem}-usage` |
 | Geometry verification (IPC)      | `omarchy-shell shell debugBarGeometry`               |
 
-# 6. Revert paths
+ 6. Revert paths
 
 - Restore the original tray: swap shell.json entry back to `omarchy.tray` and
   `omarchy plugin remove nugget.tray` (or restore the `shell.json.bak.pillbox.*`
