@@ -16,6 +16,7 @@ Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 - Accents the Omarchy button and the active workspace icon with the current theme's accent color
 - Sets battery to yellow when less than 50% and red when less than 15%
 - Sets active omarchy.indicators to a red color
+- Adds disk, memory, and cpu usage plugins that open btop when pressed
 
 Themes shown:
 - Miasma (https://github.com/OldJobobo)
