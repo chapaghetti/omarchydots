@@ -26,9 +26,8 @@ Themes shown:
 - Tokyo Night
 - Catppuccin Latte
 - Everforest
-- Catppuccin
 - Last Horizon
-
+- Catppuccin
   
 ----------------------------------------------------------------------------
 
