@@ -1,5 +1,4 @@
 <img width="2880" height="102" alt="clipboard_2026-08-15_12-18" src="https://github.com/user-attachments/assets/96ed6790-6165-411f-bd18-620575c3206a" />
-<img width="2880" height="76" alt="clipboard_2026-08-15_20-12" src="https://github.com/user-attachments/assets/161c89a4-dfbc-44d9-82e5-aea3d860e294" />
 <img width="2880" height="94" alt="clipboard_2026-08-15_12-00" src="https://github.com/user-attachments/assets/17099ecf-f3d0-4f7c-871e-05a20890f8f3" />
 <img width="2880" height="76" alt="clipboard_2026-08-15_12-24" src="https://github.com/user-attachments/assets/d1895a08-ff09-4132-b56c-10c03bdc2d35" />
 <img width="2880" height="74" alt="clipboard_2026-08-15_12-23" src="https://github.com/user-attachments/assets/441ca6e9-7e40-4954-bfb6-9a7eddf6e860" />
@@ -21,7 +20,6 @@ Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 
 Themes shown:
 - Tokyo Night
-- Everforest
 - Miasma (https://github.com/OldJobobo)
 - Last Horizon
 - Catppuccin
