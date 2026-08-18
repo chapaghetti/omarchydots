@@ -1,8 +1,7 @@
-<img width="2880" height="102" alt="clipboard_2026-08-15_12-18" src="https://github.com/user-attachments/assets/96ed6790-6165-411f-bd18-620575c3206a" />
-<img width="2880" height="94" alt="clipboard_2026-08-15_12-00" src="https://github.com/user-attachments/assets/17099ecf-f3d0-4f7c-871e-05a20890f8f3" />
-<img width="2880" height="76" alt="clipboard_2026-08-15_12-24" src="https://github.com/user-attachments/assets/d1895a08-ff09-4132-b56c-10c03bdc2d35" />
-<img width="2880" height="74" alt="clipboard_2026-08-15_12-23" src="https://github.com/user-attachments/assets/441ca6e9-7e40-4954-bfb6-9a7eddf6e860" />
-
+<img width="1920" height="37" alt="image" src="https://github.com/user-attachments/assets/554bae95-45c6-4495-9a01-198ab1b4c066" />
+<img width="1919" height="37" alt="image" src="https://github.com/user-attachments/assets/1ecc8fb9-f0ef-44ed-998c-b92be1829d3f" />
+<img width="1920" height="37" alt="image" src="https://github.com/user-attachments/assets/2b09ce20-b1a4-489e-bde1-49e83eb61504" />
+<img width="1920" height="37" alt="image" src="https://github.com/user-attachments/assets/5ed0d230-fb11-4258-9df3-c9a4e708fc12" />
 
 ----------------------------------------------------------------------------
 
