@@ -21,7 +21,7 @@ Themes shown:
 - Miasma (https://github.com/OldJobobo)
 - Last Horizon
 - Tokyo Night
-- Catppuccin
+- Everforest
   
 ----------------------------------------------------------------------------
 
