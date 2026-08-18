@@ -18,9 +18,9 @@ Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 - Adds disk, memory, and cpu usage plugins that open btop when pressed
 
 Themes shown:
-- Tokyo Night
 - Miasma (https://github.com/OldJobobo)
 - Last Horizon
+- Tokyo Night
 - Catppuccin
   
 ----------------------------------------------------------------------------
