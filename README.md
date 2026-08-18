@@ -19,7 +19,7 @@ Modifies the default Omarchy Quattro dots (Hypr/Omarchy)
 
 Themes shown:
 - Miasma (https://github.com/OldJobobo)
-- Last Horizon
+- Nord
 - Tokyo Night
 - Everforest
   
