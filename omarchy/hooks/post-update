@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# This hook is called after an Omarchy system update has been performed
+# To put it into use, remove.sample from the name
+
+# Example: show notification after the system has been update
+# notify-send "Update Performed" "Your system is now up to date"
+
+echo -e "\e[32mRunning post-update hook\e[0m"
+
+tldr --update
+
+echo -e "\n\e[32mCopying latest ~/.config/ files to ~/git/dotfiles/.config/\e[0m"
+
+cp -fv ~/.bashrc ~/git/dotfiles/
+cp -rfv ~/.config/hypr/*.conf ~/git/dotfiles/.config/hypr/
+cp -rfv ~/.config/waybar/* ~/git/dotfiles/.config/waybar/
+cp -rfv ~/.config/omarchy/branding/* ~/git/dotfiles/.config/omarchy/branding/

@@ -1,0 +1,91 @@
+# Change the default Omarchy look'n'feel
+
+# https://wiki.hyprland.org/Configuring/Variables/#general
+# https://wiki.hyprland.org/Configuring/Variables/#decoration
+# https://wiki.hypr.land/Configuring/Dwindle-Layout/
+
+animations {
+    enabled = yes
+
+    # Bezier curves: fast & springy
+    bezier = spring, 0.55, 1.2, 0.45, 1.0
+    bezier = smooth, 0.3, 0, 0.25, 1.0
+    bezier = quick, 0.2, 0, 0.1, 1.0
+
+    # Windows animations
+    animation = windows,        1, 1.5, spring
+    animation = windowsIn,      1, 1.2, quick
+    animation = windowsOut,     1, 1.0, quick
+    animation = windowsMove,    1, 1.6, spring
+
+    # Fade animations
+    animation = fade,           1, 1.3, smooth
+    animation = fadeIn,         1, 1.1, smooth
+    animation = fadeOut,        1, 0.9, quick
+    animation = fadeDim,        1, 1.1, smooth
+    animation = fadeSwitch,     1, 1.2, quick
+
+    # Layers animations
+    animation = layers,         1, 1.5, spring
+    animation = layersIn,       1, 1.2, quick
+    animation = layersOut,      1, 1.1, quick
+
+    # Workspaces
+    animation = workspaces,     1, 1.5, spring
+    animation = specialWorkspace, 1, 3, smooth, slide left
+
+    # Borders
+    animation = border,         1, 2.0, spring
+    animation = borderangle,    1, 2.2, smooth
+}
+
+general {
+    border_size = 3 
+    gaps_in = 2 
+    gaps_out = 8
+}
+
+decoration {
+    rounding = 10            # slightly more rounded corners
+}
+
+
+# Warcraft 1 Orcs & Humans
+windowrule = fullscreen on, idle_inhibit always, match:class ^(steam_app_0)$, match:title ^(DOSBox)
+windowrule = no_blur on, match:class ^(steam_app_0)$, match:title ^(DOSBox)autostart
+
+# Hue-Tui
+windowrule = float on, center on, match:class org.omarchy.hue-tui.sh, size 576 270
+
+# Generic for all Unity popup windows
+windowrule = stay_focused on, pin on, match:class ^(Unity)$, match:float 1, match:title ^(UnityEditor\*)$
+windowrule = no_blur on, opacity 1, match:class ^(Unity)$, match:title ^(UnityEditor\*)$
+windowrule = no_blur on, float on, opacity 1, match:class ^(Unity)$, match:title ^(Unity)$
+windowrule = no_blur on, opacity 1, match:class Unity
+windowrule = float on, center on, stay_focused on, pin on, min_size 1 1, no_blur on, match:class ^(Unity)$, match:title ^(.*Color)$
+#windowrulev2 = tile, class:^(Unity)$, title:^(Enemy Generator)$
+
+# For Aseprite
+windowrule = tile on, opacity 1 1, maximize on, match:class Aseprite
+
+# For Windows VM
+windowrule = workspace 6, maximize on, match:class xfreerdp
+
+# For Discord
+windowrule = workspace 3, match:class chrome-discord.com__app-Default
+
+# For Ghostty
+windowrule = tile on, match:class com.mitchellh.ghostty
+
+# Rule for Image Viewer and Movie Player
+windowrule = tag -floating-window, tile on, match:class imv
+windowrule = tag -floating-window, tile on, match:class mpv
+
+# For Bitwarden
+windowrule = tag -floating-window, tile on, match:class Bitwarden
+
+# For Btop
+windowrule = tag -floating-window, tile on, match:class org.omarchy.btop
+
+
+
