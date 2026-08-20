@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-used=$(top -bn1 | awk -F'[, ]+' '/%Cpu\(s\)/ {printf "%.0f", 100-$8}')
-printf '\uf2db %s%%\n' "$used"
